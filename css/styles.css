@@ -218,21 +218,9 @@ img {
     height: 72px;
     flex-shrink: 0;
     display: flex;
-}
-.section-container{
-    
-}
-.third-container{
-    width: 1440px;
-    height: 732px;
-    padding: 120px 639px 572px 639px;
-}
-.fours-container{
-    padding: 120px 611px 1080px 611px;
-}
-.footer-container{
-    width: 1440px;
-height: 312px;
-flex-shrink: 0;
-background:  #2e2f42;
+max-width: 100%; 
+padding-left: auto;  
+padding-right: auto; 
+margin-left:0;
+margin-right:0;
 }
