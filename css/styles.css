@@ -7,9 +7,11 @@ font-style: normal;
 font-weight: 700;
 letter-spacing: 0.54px;
 text-transform: uppercase;
+margin-right: 76px;
 }
 .span{
     color: #2e2f42;
+    
 }
 header{
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -25,10 +27,16 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
-
+display: flex;
+gap: 40px;
+}
+.adress-list{
+    display: flex;
+    gap: 40px;
 }
 .header-list-link{
     color: #2e2f42;
+    padding: 24px 0 ;
 }
 .header-list-link:hover {
     color: #404bbf;
@@ -71,6 +79,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 margin-bottom: 48px;
+max-width: 496px;
 }
 .button-text:hover {background-color:#404BBF;}
 .button-text:focus {background-color:#404BBF;}
@@ -84,6 +93,10 @@ letter-spacing: 0.04em;
 line-height: 1.5;
 color: #ffffff ;
 cursor: pointer;
+display: block;
+min-width: 169px;
+height: 56px;
+border-radius: 4px;
 }
 .main-list .name-text{
 color: var(--NAVY-BLUE, #2E2F42);
@@ -94,10 +107,19 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
 background-color: #FFFFFF;
+display: flex;
+gap: 24px;
+}
+.name-text{
+    margin-bottom: 8px;
+}
+.main-iten{
+    width: calc((100% - 72px) / 4);
 }
 .second{
-    padding: 120px 156px 120px 120px;
+    padding: 120px 0;
 }
+h2  .visually-hidden
 .main-list .main-text{
 color: var(--SLATE, #434455);
 font-family: "Roboto", sans-serif;
@@ -109,6 +131,7 @@ letter-spacing: 0.32px;
 }
 .third{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team-name{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -122,6 +145,10 @@ letter-spacing: 0.32px;
     text-transform: capitalize;
    
     margin-bottom: 72px;
+}
+.team-list{
+    display: flex;
+    gap: 24px;
 }
 .team-list .person-name{   
     color: var(--NAVY-BLUE, #2E2F42);    
@@ -160,6 +187,7 @@ footer{
 }
 .section{
 background:  #2e2f42;
+padding: 188px 0;
 
 }
 .logo-last{
@@ -214,13 +242,15 @@ img {
     display: block;
 }
 .conteiner{
-    width: 1440px;
+    width: 1158px;
     height: 72px;
     flex-shrink: 0;
     display: flex;
-max-width: 100%; 
-padding-left: auto;  
-padding-right: auto; 
-margin-left:0;
-margin-right:0;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+.navigation{
+    display: flex;
+    align-items: center
+}
+
