@@ -119,8 +119,10 @@ gap: 24px;
 .name-text{
     margin-bottom: 8px;
 }
-.main-iten{
+.main-item{
     width: calc((100% - 72px) / 4);
+    display: flex;
+gap: 24px;
 }
 .second{
     padding: 120px 0;
