@@ -213,6 +213,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;
+max-width: 264px;
 }
 
 .section{
@@ -229,7 +230,8 @@ font-weight: 700;
 letter-spacing: 0.54px;
 line-height: 1.17;
 text-transform: uppercase;
-
+display: inline-block;
+margin-bottom: 16px;
 }
 .spanlas{
     color: #f4f4fd;
@@ -246,7 +248,7 @@ text-transform: uppercase;
     column-gap: 24px;
     row-gap: 48px;
 }
-.fours-list .fours-list-item{
+ .fours-list-item{
     width: calc((100% - 48px) / 3);
 }
 .portfolio-name{
@@ -275,6 +277,9 @@ text-transform: uppercase;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;   
+}
+.footer{
+    padding: 100px 0;
 }
 h1 h2 h3 h4 h5 h6, p {
 margin: 0;
