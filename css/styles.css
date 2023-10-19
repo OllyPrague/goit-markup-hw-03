@@ -241,7 +241,7 @@ ul, ol {
 img {
     display: block;
 }
-.conteiner{
+.container{
     width: 1158px;
     height: 72px;
     flex-shrink: 0;
