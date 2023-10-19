@@ -116,6 +116,10 @@ background-color: #FFFFFF;
 display: flex;
   gap: 24px;
 }
+.main-list .name-text .main-item .main-text{
+    display: flex;
+  gap: 24px;
+}
 .name-text{
     margin-bottom: 8px;
     display: flex;
