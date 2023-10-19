@@ -30,7 +30,8 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
-
+display: flex;
+gap: 40px;
 }
 .adress-list{
     display: flex;
@@ -39,6 +40,8 @@ letter-spacing: 0.32px;
 .header-list-link{
     color: #2e2f42;
     padding: 24px 0 ;
+    display: flex;
+gap: 40px;
 }
 .header-list-link:hover {
     color: #404bbf;
