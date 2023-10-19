@@ -17,7 +17,10 @@ header{
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 }
-
+.header-list{
+    display: flex;
+gap: 40px;
+}
 
 .header-list .header-list-item {
     color: #2e2f42;
@@ -27,8 +30,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
-display: flex;
-gap: 40px;
+
 }
 .adress-list{
     display: flex;
@@ -97,6 +99,7 @@ display: block;
 min-width: 169px;
 height: 56px;
 border-radius: 4px;
+border: none;
 }
 .main-list .name-text{
 color: var(--NAVY-BLUE, #2E2F42);
@@ -251,6 +254,6 @@ img {
 }
 .navigation{
     display: flex;
-    align-items: center
+    align-items: center;
 }
 
