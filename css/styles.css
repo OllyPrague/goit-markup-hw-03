@@ -128,7 +128,7 @@ background-color: #FFFFFF;
     display: flex;
   gap: 24px;
 }
-.htwo .visually-hidden
+.htwo .visually-hidden{}
 .main-item{
     width: calc((100% - 72px) / 4);
     display: flex;
