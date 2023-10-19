@@ -128,7 +128,9 @@ background-color: #FFFFFF;
     display: flex;
   gap: 24px;
 }
-.htwo .visually-hidden{}
+.htwo .visually-hidden{
+    visibility: hidden;
+}
 .main-item{
     width: calc((100% - 72px) / 4);
     display: flex;
@@ -232,6 +234,7 @@ letter-spacing: 0.54px;
 line-height: 1.17;
 text-transform: uppercase;
 margin-bottom: 16px;
+display: inline-block;
 }
 .spanlas{
     color: #f4f4fd;
