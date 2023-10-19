@@ -246,7 +246,7 @@ text-transform: uppercase;
     column-gap: 24px;
     row-gap: 48px;
 }
-.fours-list-item{
+.fours-list .fours-list-item{
     width: calc((100% - 48px) / 3);
 }
 .portfolio-name{
