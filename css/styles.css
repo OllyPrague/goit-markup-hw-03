@@ -91,6 +91,9 @@ body {
     background-color:#FFFFFF;
     /* next level */
 }
+.first-con{
+    align-items: center;
+}
 .name{
 color: #ffffff;
 text-align: center;
