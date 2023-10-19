@@ -121,11 +121,13 @@ display: flex;
     display: flex;
   gap: 24px;
 }
-.htwo{
-    visibility: hidden;
-}
+.htwo .visually-hidden
 .main-item{
     width: calc((100% - 72px) / 4);
+    display: flex;
+  gap: 24px;
+}
+.main-text{
     display: flex;
   gap: 24px;
 }
