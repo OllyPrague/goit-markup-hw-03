@@ -118,6 +118,11 @@ display: flex;
 }
 .name-text{
     margin-bottom: 8px;
+    display: flex;
+  gap: 24px;
+}
+.htwo{
+    visibility: hidden;
 }
 .main-item{
     width: calc((100% - 72px) / 4);
@@ -258,5 +263,6 @@ img {
 .navigation{
     display: flex;
     align-items: center;
+    
 }
 
