@@ -21,6 +21,10 @@ background: var(--WHITE, #FFF);
     display: flex;
 gap: 40px;
 }
+.header-container{
+    display: flex;
+    align-items: center;
+}
 
 .header-list .header-list-item {
     color: #2e2f42;
@@ -50,6 +54,7 @@ gap: 40px;
     color: #404bbf;
 }
 .address{
+    margin-left: auto;
     font-style: normal;
 }
 .address .address-link{
@@ -296,9 +301,7 @@ img {
 }
 .container{
     width: 1158px;
-    height: 72px;
     flex-shrink: 0;
-    display: flex;
     margin: 0 auto;
     padding: 0 15px;
 }
