@@ -93,8 +93,10 @@ body {
 }
 .first-con{
     align-items: center;
+    
 }
 .name{
+    margin: auto;
 color: #ffffff;
 text-align: center;
 font-family: "Roboto", sans-serif;
@@ -109,6 +111,7 @@ max-width: 496px;
 .button-text:hover {background-color:#404BBF;}
 .button-text:focus {background-color:#404BBF;}
 .button-text{
+    margin: auto;
 background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
@@ -153,8 +156,6 @@ background-color: #FFFFFF;
 }
 .main-item{
     width: calc((100% - 72px) / 4);
-    display: flex;
-  gap: 24px;
 }
 
 .second{
@@ -239,7 +240,6 @@ max-width: 264px;
 .section{
 background:  #2e2f42;
 padding: 188px 0;
-
 }
 .logo-last{
     display: inline-block;
